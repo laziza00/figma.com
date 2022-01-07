@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>figma-com</title>
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
@@ -16,27 +17,40 @@
 
   <header class="header">
     <div class="header-inner row">
-      <div class="header-info col-3"></div>
-      <div class="header-content col-9 row between">
+      <div class="header-info col-2"></div>
+      <div class="header-content col-10 row between">
         <div class="input-box">
-          <box-icon name='bell' class="search"></box-icon>
+          <i class='bx bx-search-alt-2'></i>
         <input class="input-header" type="text" id="search" name="search" type="search" placeholder="Search files, teams or people">
       </div>
-      <div class="header-sign">
-        <img class="serach bell-img" src="images/bx-bell.svg" alt="img" width="14" height="15">
-        <a class="person-gmail" href="#">L</a>
-        <select class=" input-service">
-          <option value=""><a class="person-gmail" href="#">L</a> Internal profile</option>
-          <option value="0">Plugins</option>
-          <option value="1">Settings</option>
-          <option value="2">Add account</option>
-          <option value="3">Log out</option>
+      <div class="header-sign row middle">
+        <div class="bell-box"> 
+          <button class="sub-btn">  <i class='bx bx-bell'></i></button>
+        
+        </div>
+       <div class="gmail-box"> 
+         <a class="person-gmail" target="_blank" href="https://t.me/DCHD_blog">L</a>
+        <select class=" input-select">
+          <option class="input-service" value=""></option>
+          <option class="input-service" value="">Internal profile</option>
+          <option class="input-service" value="">Plugins</option>
+          <option class="input-service" value="">Settings</option>
+          <option class="input-service" value="">Add account</option>
+          <option class="input-service" value=".">Log out</option>
       </select>
+    </div>
+       
       </div>
       </div>
     </div>
 
   </header>
+
+
+
+
+
+
 
   <script src="js/main.js"></script>
 </body>
