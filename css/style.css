@@ -292,10 +292,10 @@ body {
   z-index: 400;
 }
 #content{
-  width: 1025px;
+  width: 80%;
   position: absolute;
   top: 225px;
-  left: 241px;
+  left: 19%;
   transform: translate(-50, 0);
   z-index: -100;
   overflow: hidden;
@@ -486,12 +486,10 @@ body {
 /* .untitled-item:hover .untitled-img{
     opacity: 0.1;
 } */
-/* .menu-btn:hover .bx-menu{
+.menu-btn:hover{
   background-color: red;
-} */
-/* .bx-menu:hover{
-  background-color: red;
-} */
+}
+
 
 .bx-x:hover{
   background-color: #fff;
